@@ -16,12 +16,14 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'valloric/youcompleteme'
 Plugin 'Dimercel/todo-vim'
 Plugin 'majutsushi/tagbar'
+Plugin 'JamshedVesuna/vim-markdown-preview'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
 
 syntax on
 set encoding=utf-8
+let vim_markdown_preview_browser='chromium'
 set nocompatible
 set relativenumber
 set ttimeoutlen=0
