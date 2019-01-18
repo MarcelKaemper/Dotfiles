@@ -10,7 +10,7 @@
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
 exec "conky"
-exec_always --no-startup-id xautolock -time 5  -locker "i3lock -i /home/marcel/Pictures/wallpapers/Tech/arch_red.png && sleep 1"
+exec_always --no-startup-id xautolock -time 10  -locker lock
 exec owncloud
 exec "setxkbmap -layout de"
 exec "~/.fehbg"
