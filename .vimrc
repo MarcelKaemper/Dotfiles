@@ -17,6 +17,8 @@ Plugin 'valloric/youcompleteme'
 Plugin 'Dimercel/todo-vim'
 Plugin 'majutsushi/tagbar'
 Plugin 'JamshedVesuna/vim-markdown-preview'
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
