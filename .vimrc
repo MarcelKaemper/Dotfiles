@@ -19,6 +19,7 @@ Plugin 'majutsushi/tagbar'
 Plugin 'JamshedVesuna/vim-markdown-preview'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
+Plugin 'tpope/vim-fugitive'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -35,6 +36,8 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#formatter = 'default'
 let g:airline#extensions#tabline#left_sep = ' '
 let g:airline#extensions#tabline#left_alt_sep = '|'
+
+au BufReadPost *.hbs set syntax=html
 
 " Bind vim-move
 let g:move_key_modifier = 'C'
