@@ -6,5 +6,5 @@ cp ~/.config/conky/conky.conf conky.conf
 cp ~/changeMon.sh changeMon.sh
 cp ~/Documents/coding/projects/backup.sh backup.sh
 cp ~/.vimrc .vimrc
-cp ~/.emacs.d/init.el init.el
+cp ~/.Xresources .Xresources
 echo "...Done!"
