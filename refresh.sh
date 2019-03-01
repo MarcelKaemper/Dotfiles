@@ -8,4 +8,5 @@ cp ~/Documents/coding/projects/backup.sh backup.sh
 cp ~/.vimrc .vimrc
 cp ~/.Xresources .Xresources
 cp ~/.config/i3blocks/config i3blocks.conf
+cp ~/.config/i3blocks/scripts/battery2/battery2 scripts/battery2/battery2
 echo "...Done!"
