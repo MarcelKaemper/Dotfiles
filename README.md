@@ -1,3 +1,6 @@
+# Desktop preview  
+![Desktop](https://imgur.com/eoOl8zQ.png)
+
 # Configuration files  
 ### Blurry i3lock:
 Put the lock file here:  
