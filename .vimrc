@@ -29,7 +29,9 @@ set encoding=utf-8
 let vim_markdown_preview_browser='chromium'
 set nocompatible
 set relativenumber
+set number
 set ttimeoutlen=0
+set tabstop=4
 
 " Show buffers in tabline
 let g:airline#extensions#tabline#enabled = 1
