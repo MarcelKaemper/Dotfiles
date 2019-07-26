@@ -6,3 +6,7 @@ if xrandr | grep "$extern disconnected"; then
 else
 	xrandr --output "$intern" --off --output "$extern" --auto
 fi
+
+killall conky
+conky -q
+sh ~/.fehbg
